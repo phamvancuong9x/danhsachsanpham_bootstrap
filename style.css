@@ -1,0 +1,26 @@
+img {
+  transition: 0.3s ease;
+}
+.btn__header {
+  transition: 0.3s ease;
+}
+.btn__header:hover {
+  border: 1px solid rgb(35, 20, 243) !important;
+}
+.product:hover  img {
+  transform: scale(1.2);
+}
+.product:hover .card{
+    box-shadow: 0 0 5px 0px #ccc;
+}
+.card-title{
+    transition: 0.3s ease;
+}
+.product:hover .card-title{
+    color: rgb(35, 20, 243);
+}
+@media (max-width: 991px) {
+  .banner-1 {
+    display: none;
+  }
+}
