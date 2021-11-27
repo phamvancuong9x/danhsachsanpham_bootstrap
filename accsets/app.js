@@ -14,7 +14,7 @@ function renderProduct(arrays) {
     <div class="card">
     <img class='p-5' src="${productObject.image}" class="card-img-top" alt="image_mobile">
     <div class="card-body ${productObject.classProductName}">
-      <h5 class="card-title text-truncate "> ${productObject.name}</h5>
+      <h5 class="card-title text-truncate p-3"> ${productObject.name}</h5>
       <div class="price " style="font-size:20px">${productObject.price}</div>
       <a href="#" class="btn btn-info my-3" style="color: #fff;">Mua ngay</a>
     </div>
