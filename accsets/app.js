@@ -10,13 +10,13 @@ let productHtml = "<div class='row gy-4 p-3'>";
 function renderProduct(arrays) {
   arrays.forEach(function (productObject) {
     productHtml += `
-    <div class="product col-sm-6 col-md-4 col-lg-3">
+    <div class="product col-sm-6 col-md-4 col-lg-3 text-center">
     <div class="card">
     <img class='p-5' src="${productObject.image}" class="card-img-top" alt="image_mobile">
     <div class="card-body ${productObject.classProductName}">
-      <h5 class="card-title text-truncate text-center"> ${productObject.name}</h5>
-      <div class="price text-center" style="font-size:20px">${productObject.price}</div>
-      <div class='d-flex justify-content-center'><a href="#" class="btn btn-info my-3" style="color: #fff;">Mua ngay</a></div>
+      <h5 class="card-title text-truncate "> ${productObject.name}</h5>
+      <div class="price " style="font-size:20px">${productObject.price}</div>
+      <a href="#" class="btn btn-info my-3" style="color: #fff;">Mua ngay</a>
     </div>
     </div>
   </div>
