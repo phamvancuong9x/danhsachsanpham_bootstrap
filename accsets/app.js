@@ -15,6 +15,7 @@ function renderProduct(arrays) {
     <img class='p-5' src="${productObject.image}" class="card-img-top" alt="image_mobile">
     <div class="card-body ${productObject.classProductName}">
       <h5 class="card-title text-truncate text-center"> ${productObject.name}</h5>
+      <div class="price text-center" style="font-size:20px">${productObject.price}</div>
       <div class='d-flex justify-content-center'><a href="#" class="btn btn-info my-3" style="color: #fff;">Mua ngay</a></div>
     </div>
     </div>
