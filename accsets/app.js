@@ -6,7 +6,7 @@ const getElmClassBtnVivo = $(".btn__vivo");
 const getElmClassBtnXiaomi = $(".btn__xiaomi");
 const getElmClassBtnAll = $(".btn__all");
 // hàm render ra các sản phẩm :
-let productHtml = "<div class='row gy-4 p-3'>";
+let productHtml = "<div class='row gy-4 pt-3'>";
 function renderProduct(arrays) {
   arrays.forEach(function (productObject) {
     productHtml += `
